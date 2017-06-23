@@ -1,0 +1,7 @@
+work_bench:
+    resource: "@WorkBenchBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
